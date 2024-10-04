@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.top_nav{
+    background:linear-gradient(to right,rgb(230, 23, 102),black);
+}
+.header-input{
+    background-color: transparent;
+}
+.main_nav{
+    background-color: rgb(20, 20, 20);
+}
+.first_box ul >li img{
+    height: 70px;
+}
+.second-box img{
+    height: 400px;
+}
+.fa-star{
+    color: rgb(250, 212, 107);
+}
+.icons{
+    color: rgb(250, 212, 107);
+    font-size: 25px;
+}
+.second-box{
+    height: 430px;
+}
+.third-box{
+    height: 430px;
+    overflow-y: scroll;
+}
+.color_box> div:nth-child(2){
+    background-color: rgb(51, 31, 16);
+}
+.color_box> div:nth-child(3){
+    background-color:rgb(18, 130, 124);
+}
+.color_box> div:nth-child(4){
+    background-color: rgb(0, 35, 74);
+}
+.color_box> div:nth-child(5){
+    background-color:rgb(0, 89, 70);
+}
+.color_box> div:nth-child(6){
+    background-color:rgb(0, 124, 173);
+}
+
+.cards > div{
+    width: 23%;
+}
+
+.card_header img{
+    width: 100%;
+    height: 250px;
+}
+.old_price{
+    text-decoration: line-through;
+}
+.line{
+    padding: 1.2px;
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(227, 18, 98);
+}
+
+
+@media (max-width:678px) {
+    .cards > div{
+        width: 100%;
+    } 
+}
